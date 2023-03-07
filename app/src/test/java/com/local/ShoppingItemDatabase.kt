@@ -1,4 +1,4 @@
-package com.androiddevs.shoppinglisttestingyt.data.local
+package com.local
 
 import androidx.room.Database
 import androidx.room.RoomDatabase
@@ -9,5 +9,5 @@ import androidx.room.RoomDatabase
 )
 abstract class ShoppingItemDatabase : RoomDatabase() {
 
-    abstract fun shoppingDao(): ShoppingDao
+    abstract fun shoppingDao(): _root_ide_package_.com.local.ShoppingDao
 }
